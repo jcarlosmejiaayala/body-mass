@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row login">
+    <h1 class="text-center">Body Mass</h1>
+    <div class="col-xs-12 col-md-6 col-md-offset-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Login</h3>
+        </div>
+        <div class="panel-body">
+          <form ng-init="login.formdata = {};" ng-submit="login.submit()" novalidate>
+            <div class="form-group">
+              <label>Email</label>
+              <input class="form-control" ng-model="login.formdata.email"/>
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" class="form-control" ng-model="login.formdata.password"/>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-md-offset-3 form-group">
+                <button type="submit" class="btn btn-success btn-block">Join</button>
+              </div>
+            </div>
+            <div class="row text-right">
+              <a ui-sref="createAccount" href="/create-account" class="btn btn-link">Create Account</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

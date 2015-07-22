@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row create-account">
+    <div class="col-xs-12 col-md-6 col-md-offset-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Create Account</h3>
+        </div>
+        <div class="panel-body">
+          <form ng-submit="create.submit()" novalidate>
+            <div class="form-group">
+              <label>Name</label>
+              <input ng-model="create.formdata.name" class="form-control"/>
+            </div>
+            <div class="form-group">
+              <label>email</label>
+              <input type="email" ng-model="create.formdata.email" class="form-control"/>
+            </div>
+            <div class="form-group">
+              <label>Password</label>
+              <input type="password" ng-model="create.formdata.password" class="form-control"/>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-12 col-md-4 col-md-offset-4">
+                <button type="submit" class="btn btn-success btn-block">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
