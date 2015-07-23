@@ -22,10 +22,9 @@
     "passport-local": "~0.1.6",
     "serve-favicon": "~2.0.1"
   },
-  "main": "app.js",
+  "main": "server/app.js",
   "scripts": {
-    "start": "node server/app.js",
-    "test": "nodemon --debug server/app.js"
+    "start": "node server/app.js"
   },
   "devDependencies": {
     "browser-sync": "~2.7.12",
